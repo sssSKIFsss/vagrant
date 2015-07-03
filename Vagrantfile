@@ -7,7 +7,7 @@ Vagrant.configure(2) do |config|
   config.vm.box_url = "ubuntu/trusty64"
   
 
-  # config.vm.network :private_network, ip: "192.168.16.16"
+  config.vm.network :private_network, ip: "192.168.16.16"
   
 
 
